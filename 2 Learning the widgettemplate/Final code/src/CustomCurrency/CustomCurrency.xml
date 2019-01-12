@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="CustomCurrency.widget.CustomCurrency" needsEntityContext="true" 
+    xmlns="http://www.mendix.com/widget/1.0/">
+    <name>CustomCurrency</name>
+    <description>The description of this widget.</description>
+
+    <icon />
+
+    <properties>
+        <property key="currencynotice" type="string" required="true" defaultValue="You can change your preferential currency in the account section of the site.">
+            <caption>Currency change txt</caption>
+            <category>Appearance</category>
+            <description>Explanation on how to change the currency preferences.</description>
+        </property>
+    </properties>
+</widget>
